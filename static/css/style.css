@@ -1,0 +1,22 @@
+body {
+    background-color: aqua;
+    margin: 0 auto 0 auto;
+}
+
+a{
+    text-decoration: none;
+    padding: 0 0 0 0 0;
+    margin: 0 0 0 2.8rem;
+    color: blue;
+}
+
+a:hover{
+    border-bottom: 3px solid white;
+    color: red;
+    text-decoration: uppercase;
+    
+}
+
+h1{
+    font-family: fantasy;
+}

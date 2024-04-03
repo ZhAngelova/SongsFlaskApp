@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/products.css')}}">   
+{% endblock %}
+
+
+{% block content %}
+
+<!-- here, we have personalised style for this page -->
+<!-- <link rel="stylesheet" href="{{url_for('static', filename='css/products.css')}}"> But Tim moves the style in the extra_css block --> 
+
+    <h1>This is the Product page</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Natus autem provident excepturi modi pariatur beatae. 
+        Maiores quibusdam cupiditate quas doloremque! 
+        Aliquam illum laborum ut nobis nisi at mollitia atque suscipit!</p>
+
+    <img src="{{url_for('static', filename='media/palmTreesSky.jpg')}}" alt="">
+
+    <button onclick="greetings()">Click here!</button>
+
+{% endblock content %}
